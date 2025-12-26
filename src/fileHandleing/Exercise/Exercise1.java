@@ -5,8 +5,10 @@ public class Exercise1 {
         // Read two integers from args
         // Perform division and handle division by zero
         Integer a,b;
-        a=Integer.parseInt(args[0]);
-        b=Integer.parseInt(args[1]);
+        //a=Integer.parseInt(args[0]);
+        //b=Integer.parseInt(args[1]);
+        a=10;
+        b=5;
 
 
 
