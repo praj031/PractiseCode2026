@@ -16,6 +16,7 @@ public class DealerShip {
          vehicle1.setVehiclePrice(19000);
          vehicle1.setVehicleModelNumber("A4:2025");
          vehicle1.setAvailable(true);
+         System.out.println(vehicle1.getVehicleModelNumber());
 
          Employee employee1 = new Employee();
          employee1.setEmployeeId("AU10000219");
