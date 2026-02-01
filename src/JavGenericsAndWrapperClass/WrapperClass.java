@@ -1,5 +1,8 @@
 package JavGenericsAndWrapperClass;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class WrapperClass {
     static void main(String[] args) {
 
@@ -16,6 +19,10 @@ public class WrapperClass {
         int result = checkValue(12);
         System.out.println(result);
         System.out.println(checkValue(null));
+
+        ArrayList<String> arrayList = new ArrayList<>();
+        List<String> list = new ArrayList<>();
+
 
     }
 

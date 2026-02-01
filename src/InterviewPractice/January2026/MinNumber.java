@@ -1,5 +1,9 @@
 package InterviewPractice.January2026;
 
+import java.util.HashSet;
+import java.util.Locale;
+import java.util.Set;
+
 public class MinNumber {
     static void main(String[] args) {
 
@@ -18,6 +22,14 @@ public class MinNumber {
         }
         System.out.println(min);
         System.out.println(max);
+        Set s = new HashSet<>();
+        s.add(new Integer(10));
+        s.add(new Long(10));
+        for (Object obj : s){
+            System.out.println(
+                    s
+            );
+        }
 
     }
 }
