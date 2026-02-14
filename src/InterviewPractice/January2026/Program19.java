@@ -1,6 +1,6 @@
-package InterviewPractice;
+package InterviewPractice.January2026;
 
-public class Program18 {
+public class Program19 {
 
     static void main(String[] args) {
 
