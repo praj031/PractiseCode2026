@@ -6,7 +6,7 @@ public class ReverseArray {
         int[] arr = {12,34,56,22,55,67,23,54,55};
         reverseOfArray(arr);
         for (int num : arr) {
-            System.out.print(STR."\{num} ");
+            //System.out.print(STR."\{num} ");
         }
         System.out.println();
     }

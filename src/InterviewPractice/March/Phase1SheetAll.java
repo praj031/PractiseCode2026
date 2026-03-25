@@ -1,6 +1,6 @@
 package InterviewPractice.March;
 
-public class LoopSheetAll {
+public class Phase1SheetAll {
 
     static void main(String[] args) {
         printNumber1(); //To print number from 1-10
