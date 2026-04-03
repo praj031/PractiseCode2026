@@ -1,4 +1,4 @@
-package Java8Lambda;
+package Java8features;
 
 public class Permanent implements classthree,classtwo {
     public static void main(String[] args) {

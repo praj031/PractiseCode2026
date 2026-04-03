@@ -1,4 +1,4 @@
-package Java8Lambda;
+package Java8features;
 
 public class classOne implements classtwo,classthree{
 

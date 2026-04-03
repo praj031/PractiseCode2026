@@ -1,4 +1,4 @@
-package Java8Lambda;
+package Java8features;
 
 public interface classthree {
 
