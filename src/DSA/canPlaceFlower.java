@@ -2,7 +2,7 @@ package DSA;
 
 public class canPlaceFlower {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         int[] arr = {1,0,0,0,1};
         int n = 1;

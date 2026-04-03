@@ -1,5 +1,7 @@
 package InterviewPractice.January2026;
 
+//import static java.lang.StringTemplate.STR;
+
 public class SumOfElements {
     //Calculate sum of all elements
     static void main(String[] args) {
@@ -14,7 +16,8 @@ public class SumOfElements {
         for(int i=0;i<arr.length;i++){
             sum += arr[i];
         }
-        System.out.println(STR."Sum of all element in array  = \{sum}");
+        //System.out.println(STR."Sum of all element in array  = \{sum}");
+        System.out.println(sum);
     }
 
 }

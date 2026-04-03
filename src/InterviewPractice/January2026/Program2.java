@@ -1,5 +1,7 @@
 package InterviewPractice.January2026;
 
+//import static java.lang.StringTemplate.STR;
+
 public class Program2 {
     //Find the smallest element in an array
     public static void main(String[] args){
@@ -20,7 +22,8 @@ public class Program2 {
                 smallest = arr[i];
             }
         }
-        System.out.println(STR."Smallest element = \{smallest}");
+        //System.out.println(STR."Smallest element = \{smallest}");
+        System.out.println("smallest = "+smallest);
 
 
     }
