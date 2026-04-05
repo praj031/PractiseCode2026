@@ -23,3 +23,7 @@ public class ReverseCollection {
 
     }
 }
+/*
+21. Write a program to reverse a list of strings using Java Stream API.
+
+ */
