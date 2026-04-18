@@ -49,6 +49,7 @@ public class DSA_1_16_April {
             int sum = sortedArray[i]+sortedArray[j];
             if(sum == target){
                 System.out.println("Sume of these 2 numbers = "+sortedArray[i]+" "+sortedArray[j]);
+                System.out.println(i + " " + j);
                 break;
             }
             else if(sum > target){
