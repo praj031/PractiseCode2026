@@ -9,9 +9,10 @@ public class DSA_1_16_April {
 
 
         // Given a array and target, now try finding the sum of 2 number that is equals to the target
-        bruteForce();
+        //bruteForce();
         System.out.println(" ");
         OptimisedWay();
+        OptimisedWay2();
 
 
     }
@@ -67,5 +68,27 @@ public class DSA_1_16_April {
 
 
     }
+
+    static void OptimisedWay2(){
+
+        int[] arr = {7,11,3,2};
+        int target = 9;
+        int i = 0;
+        int j = arr.length-1;
+        while (i<j){
+            int sum = arr[i]+arr[j];
+            if(sum == target){
+                System.out.println("Index of 2 numbers are = "+i + " " + j);
+                break;
+            }
+            else if(sum > target){
+                j--;
+            }
+            else if (sum < target){
+                i++;
+            }
+        }
+    }
+
 
 }
