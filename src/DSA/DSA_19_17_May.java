@@ -3,7 +3,7 @@ package DSA;
 import java.util.Arrays;
 
 public class DSA_19_17_May {
-    //Dutch National Flags
+    //Dutch National Flags -- it's like basic sorting
     public static void main(String[] args) {
         usingStream();
         System.out.println();
