@@ -1,4 +1,4 @@
-package DSA;
+package DSA.LeetCode;
 
 public class DSA_8_19_April {
 

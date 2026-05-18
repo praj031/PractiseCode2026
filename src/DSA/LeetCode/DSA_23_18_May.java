@@ -1,4 +1,4 @@
-package DSA;
+package DSA.LeetCode;
 
 public class DSA_23_18_May {
     //merge 2 sorted array

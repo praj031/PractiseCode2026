@@ -1,4 +1,4 @@
-package DSA;
+package DSA.LeetCode;
 
 public class DSA_10_22_April {
     public static void main(String[] args) {
