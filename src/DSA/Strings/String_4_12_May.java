@@ -5,7 +5,7 @@ public class String_4_12_May {
     public static void main(String[] args) {
 
         String str = "Apple_3,Mango_6,Banana_9,Orange_7";
-
+        //Question asked in infos
         //1. We need to split
         String[] fruits = str.split(",");
         int maxQty = 0;
