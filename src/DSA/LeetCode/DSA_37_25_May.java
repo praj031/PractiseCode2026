@@ -27,6 +27,9 @@ public class DSA_37_25_May {
             }
             high++;
         }
+        if (result == Integer.MAX_VALUE) {
+            return 0;
+        }
         return result;
     }
 }
