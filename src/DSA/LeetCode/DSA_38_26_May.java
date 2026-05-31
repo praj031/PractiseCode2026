@@ -13,24 +13,28 @@ public class DSA_38_26_May {
         System.out.println("Final length of string = "+finalLength);
     }
 
-    public static int longestKSubstr(String str, int k){
-        int maxLen = -1;
-        for(int i = 0; i < str.length(); i++) {
-            int[] freq = new int[26];
-            int distinct = 0;
-            for(int j = i; j < str.length(); j++) {
-                char ch = str.charAt(j);
-                if(freq[ch - 'a'] == 0) {
-                    distinct++;
+    public static int longestKSubstr(String s, int k){
+        int[] freq = new int[26]; //Stores frequency of characters in the current window.
+        int left = 0; //Left boundary of the window.
+        int distinct = 0; //Stores distinct counts
+        int maxLen = -1; //Default max length
+        for (int right = 0; right < s.length(); right++) { //
+            char ch = s.charAt(right);
+            if (freq[ch - 'a'] == 0) {
+                distinct++;
+            }
+            freq[ch - 'a']++;
+            while (distinct > k) {
+                char leftChar = s.charAt(left);
+                freq[leftChar - 'a']--;
+                if (freq[leftChar - 'a'] == 0) {
+                    distinct--;
                 }
-                freq[ch - 'a']++;
-                int length = j-i+1;
-                if(distinct == k) {
-                    maxLen = Math.max(maxLen,length);
-                }
-                if(distinct > k) {
-                    break;
-                }
+                left++;
+            }
+
+            if (distinct == k) {
+                maxLen = Math.max(maxLen, right - left + 1);
             }
         }
         return maxLen;
