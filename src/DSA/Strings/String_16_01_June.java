@@ -24,9 +24,6 @@ public class String_16_01_June {
 
         String finalString = revString + secondString;
         System.out.println(finalString);
-
-
-
     }
 
 }
