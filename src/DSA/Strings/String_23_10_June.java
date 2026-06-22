@@ -4,7 +4,7 @@ public class String_23_10_June {
     //First non-repeating character in array
     public static void main(String[] args) {
 
-        String str = "Apple";
+        String str = "Aapple";
         String input = str.toLowerCase();
         char[] arr = input.toCharArray();
         for(int i=0;i<arr.length;i++){
