@@ -8,23 +8,26 @@ public class DSA_44_22_June {
         int n = arr.length;
         int low = 0;
         int high = n-1;
-        while(low<high){
-            boolean find = false;
-            if(arr[low] == target){
-                System.out.println("Initial Index = "+low);
-                find = true;
-            }
-            if(arr[high] == target){
-                System.out.println("Final Index = "+high);
-                find = true;
-            }
-            low++;
-            high--;
+        int first = -1;
+        int last = -1;
+        while (low <= high && (first == -1 || last == -1)) {
 
-            if(find){
-                break;
+            if (first == -1 && arr[low] == target) {
+                first = low;
+            }
+            if (last == -1 && arr[high] == target) {
+                last = high;
+            }
+            if (first == -1) {
+                low++;
+            }
+            if (last == -1) {
+                high--;
             }
         }
+
+        System.out.println(first);
+        System.out.println(last);
 
     }
 }
