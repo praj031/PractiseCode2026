@@ -1,6 +1,6 @@
 package DSA.Strings;
 
-public class String_4_12_May {
+public class String_4_12_May {   //Capgemini question
     //Highest quantity fruit : Apple_3,Mango_6,Banana_9,Orange_7
     public static void main(String[] args) {
 
