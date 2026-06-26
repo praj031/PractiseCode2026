@@ -2,7 +2,7 @@ package DSA.Strings;
 
 import java.util.Stack;
 
-public interface String_28_25_June {
+public class String_28_25_June {
 
     //125. Valid Palindrome
     public static void main(String[] args) {
