@@ -2,7 +2,7 @@ package DSA.Strings;
 
 import java.util.HashMap;
 
-public class String_29_30_June {
+public class String_30_29_June {
     //Frequency of each character in string
     public static void main(String[] args) {
         String string = "aappccfhghwefheshdshjrssgaahgtaefaagdsh";
