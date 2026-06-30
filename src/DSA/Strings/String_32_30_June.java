@@ -7,7 +7,7 @@ import java.util.List;
 public class String_32_30_June {
 
     //1189. Maximum Number of Balloons
-    //2287. Rearrange Characters to Make Target String
+
     public static void main(String[] args) {
         String text = "loonbalxballpoon";
         int output = maxNumberOfBalloons(text);
