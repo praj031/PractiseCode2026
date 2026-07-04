@@ -19,7 +19,7 @@ public class DSA_2_17_April {
         for(int l=0;l< arr.length;l++){
             System.out.print(arr[l]+" ");
         }
-
+//2 sum OP
 
 
     }
