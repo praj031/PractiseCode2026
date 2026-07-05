@@ -6,7 +6,7 @@ public class Problem_1_02_2026 {
     public static void main(String[] args) {
 
         int[][] matrix = {{0,1,2,0},{3,4,5,2},{1,3,1,5}};
-        int m = matrix.length; //To get rows
+        int m = matrix.length; //To get rows/
         int n = matrix[0].length;//To get column
 
         for(int i = 0; i<m ; i++){ //Row loop
