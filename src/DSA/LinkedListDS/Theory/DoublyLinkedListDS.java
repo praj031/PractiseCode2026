@@ -1,4 +1,4 @@
-package DSA.LinkedListDS;
+package DSA.LinkedListDS.Theory;
 
 public class DoublyLinkedListDS {
     //learn Linked list data structure All lecture here only.
