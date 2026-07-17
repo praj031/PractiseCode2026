@@ -19,7 +19,7 @@ public class LinkedList_Problems {
         for(int i = 0; i < jump; i++){
             temp = temp.next;
         }
-        //Again reiterating from middle to end.
+        //Again reiterating from middle to end./
         while (temp != null){
             System.out.print(temp.val + " ");
             temp = temp.next;
