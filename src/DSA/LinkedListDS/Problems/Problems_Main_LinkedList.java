@@ -23,7 +23,9 @@ public class Problems_Main_LinkedList {
 
 
         //List of problems
-        LinkedList_Problems.findMiddleOFLinkedList(head);
+        //LinkedList_Problems.findMiddleOFLinkedList(head);
+        boolean value = LinkedList_Problems.hasCycle(head);
+        System.out.println("Is the linked List cyclic  = "+value);
 
 
     }
