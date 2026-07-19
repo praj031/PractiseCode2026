@@ -24,7 +24,7 @@ public class LinkedList_Problems {
             System.out.print(temp.val + " ");
             temp = temp.next;
         }
-    }
+    }//
 
     public static boolean hasCycle(Node<Integer> head) {
 
