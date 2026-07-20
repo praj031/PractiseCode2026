@@ -44,6 +44,23 @@ public class LinkedList_Problems {
         return false;
     }
 
+    public static Node<Integer> reverseLL(Node<Integer> head){
+
+        Node<Integer> previous = null;
+        Node<Integer> current = head;
+        while (current != null){
+
+            Node<Integer> next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+
+        }
+
+        return previous;
+
+    }
+
 
 
 }
