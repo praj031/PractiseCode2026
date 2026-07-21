@@ -24,13 +24,16 @@ public class Problems_Main_LinkedList {
 
         //List of problems
         //LinkedList_Problems.findMiddleOFLinkedList(head);
-        boolean value = LinkedList_Problems.hasCycle(head);
-        System.out.println("Is the linked List cyclic  = "+value);
-        Node<Integer> reverseLL = LinkedList_Problems.reverseLL(head);
-        while (reverseLL != null){
-            System.out.print(reverseLL.val + " ");
-            reverseLL =  reverseLL.next;
-        }
+//        boolean value = LinkedList_Problems.hasCycle(head);
+//        System.out.println("Is the linked List cyclic  = "+value);
+//        Node<Integer> reverseLL = LinkedList_Problems.reverseLL(head);
+//        while (reverseLL != null){
+//            System.out.print(reverseLL.val + " ");
+//            reverseLL =  reverseLL.next;
+//        }
+        int n = 2;
+        LinkedList_Problems.removeNthNodeFromEnd(head,n);
+
 
 
 

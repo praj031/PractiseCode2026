@@ -61,6 +61,29 @@ public class LinkedList_Problems {
 
     }
 
+    public static void removeNthNodeFromEnd(Node<Integer> head, int n){
+        Node<Integer> temp = head;
+        int count = 0;
+        while (temp != null){
+            count++;
+            temp = temp.next;
+        }
+        temp = head;
+        int pos = count - n;
+        for(int i=0;i<pos-1;i++){
+            temp = temp.next;
+        }
+        if (pos == 0) {
+            //return head.next;
+        }
+        temp.next = temp.next.next;
+        temp = head;
+        while (temp != null){
+            System.out.print(temp.val + " --> ");
+            temp = temp.next;
+        }
+    }
+
 
 
 }
