@@ -49,7 +49,7 @@ public class SinglyLinkedListDS {
     // How to insert data into the linked list.
     public static void insertIntoLinkedList(int pos, int data, Node<Integer> head){
 
-        Node<Integer> temp = head;  //We took a variable in which we set our node
+        Node<Integer> temp = head;  //We took a variable in which we set our node//
         for(int i=0;i<pos-1;i++){ //We will move our pointer to the one place before the position we need to add[Suppose we need to add after 2nd pos - so we move till 2nd position]
             temp = temp.next; //pointer will move.
         }
