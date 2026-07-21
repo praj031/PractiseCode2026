@@ -42,7 +42,7 @@ public class SinglyLinkedListDS {
         while (temp != null) → Keep traversing until there are no more nodes.
         System.out.println(temp.val) → Process the current node.
         temp = temp.next → Move to the next node.
-        When temp becomes null, the traversal ends.
+        When temp becomes null, the traversal ends./
          */
     }
 
