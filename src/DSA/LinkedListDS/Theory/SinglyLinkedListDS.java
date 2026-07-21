@@ -70,7 +70,7 @@ public class SinglyLinkedListDS {
     public static void deleteInsideLinkedList(int pos, Node<Integer> head){
 
         //How to delete element inside teh linked List
-        Node<Integer> temp = head; //Making a temp iterator
+        Node<Integer> temp = head; //Making a temp iterator/
         for(int i=0;i<pos-1;i++){ //Creating a for loop that will be moving till the position where the element need to be deleted.
             temp = temp.next; //Iterator update
         }
