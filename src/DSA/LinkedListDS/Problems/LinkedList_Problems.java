@@ -84,6 +84,36 @@ public class LinkedList_Problems {
         }
     }
 
+    public boolean isPalindrome(Node<Integer> head) {
+
+        if (head == null || head.next == null) {
+            return true;
+        }
+        Node<Integer> slow = head;
+        Node<Integer> fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        Node<Integer> prev = null;
+        while (slow != null) {
+            Node<Integer> next = slow.next;
+            slow.next = prev;
+            prev = slow;
+            slow = next;
+        }
+        Node<Integer> first = head;
+        Node<Integer> second = prev;
+        while (second != null) {
+            if (first.val != second.val) {
+                return false;
+            }
+            first = first.next;
+            second = second.next;
+        }
+        return true;
+    }
+
 
 
 }
