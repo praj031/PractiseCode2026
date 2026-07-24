@@ -113,6 +113,4 @@ public class LinkedList_Problems {
         }
         return true;
     }//
-
-
 }
