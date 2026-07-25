@@ -112,5 +112,5 @@ public class LinkedList_Problems {
             second = second.next;
         }
         return true;
-    }//
+    }//m
 }
